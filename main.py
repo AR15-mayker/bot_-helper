@@ -3,10 +3,9 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from dotenv import find_dotenv, load_dotenv
 from loguru import logger
-from handlers.user_private import user_private_router
-from handlers.group_chat import group_router
-from utils.scheduler import schedule_jobs
-from database.db import init_db
+from studentbid import user_private_router
+from hasardier_SQL import init_db
+from utils import schedule_jobs
 
 load_dotenv(find_dotenv())
 TOKEN = os.getenv("TOKEN")
@@ -20,9 +19,7 @@ logger.info("Бот запущен")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
-
 dp.include_router(user_private_router)
-dp.include_router(group_router)
 
 async def on_startup():
     await init_db()
