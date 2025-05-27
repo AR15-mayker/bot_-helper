@@ -12,12 +12,12 @@ id | id_user (telegram_user) | id_group | time | day_week
 
 # Разработка
 
-.env
-.gitignore
-main.py - Кирил Солонченко
-keyboard.py - Вита
-private_chat.py - Влад Соломахин
-group_chat.py - Тимур
-handler.py - Саша
-admin_panel.py - Гера
-student.db - Ксюша
+- .env
+- .gitignore
+- main.py - Кирил Солонченко
+- keyboard.py - Вита
+- private_chat.py - Влад Соломахин
+- group_chat.py - Тимур
+- handler.py - Саша
+- admin_panel.py - Гера
+- student.db - Ксюша
