@@ -9,3 +9,15 @@ id | id_user (telegram_user) | id_group | time | day_week
 
 # 3 -  Функция бота
 Бот в канале отправляет напоминания о занятии (за сутки, день недели и время). В личном сообщении пишет также, как и в канале.
+
+# Разработка
+
+.env
+.gitignore
+main.py - Кирил Солонченко
+keyboard.py - Вита
+private_chat.py - Влад Соломахин
+group_chat.py - Тимур
+handler.py - Саша
+admin_panel.py - Гера
+student.db - Ксюша
